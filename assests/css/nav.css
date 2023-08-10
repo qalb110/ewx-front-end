@@ -1,0 +1,218 @@
+/* <!-- scrollbutton > */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 3px solid #f1c503 ; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:white; /* Set a background color */
+    color:#f1c503; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 16px; /* Some padding */
+  height: 55px;
+  width: 50px;
+  /* margin-bottom: 90px; */
+    font-size: 13px; /* Increase font size */
+  
+  
+  }
+  
+  #myBtn:hover {
+  color:#f1c503;
+  border: 2px solid #f1c503 ;
+  }
+  .coverbtn{
+      text-align: end;
+      margin-top: 30px;
+  
+      #ourcustomer {
+          height: 110px; /* Set a fixed height for the parent container */
+        }
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+  }
+  /* logohight */
+  .imghight{
+      height: 13vh;
+      padding-left: 75px;
+   
+  }
+  body{
+      overflow-x: 0;
+  }
+  /* <!-- iconmain -- */
+  .iconmain{
+      width: 60px;
+      height: 60px;
+      border: 2px solid rgb(63, 136, 220);
+      border-radius: 50%;
+      margin-right: 20px;
+  }
+  
+  .fa-mobile{
+  /* padding: 18px; */
+  padding-left: 18px;
+  padding-top: 14px;
+      color:rgb(61, 130, 209) ;
+  }
+  /* .fa-phone {
+     padding: 18px;
+  } */
+  .fa-envelope{
+      /* padding: 17px; */
+  padding-left: 14px;
+  padding-top: 14px;
+      color:rgb(61, 130, 209) ;
+  }
+  .fa-pen-to-square{
+      color:  rgb(22, 103, 196);
+      padding-left: 15px;
+  padding-top: 14px;
+      
+      }
+  .ahreftex{
+      text-decoration: none;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:rgb(63, 136, 220) ;
+      margin-left: 8px;
+    
+  }
+  .ahreftex span{
+    margin-left: 10px;
+  }
+  .ahreftex1{
+      font-weight: 400;
+      font-family:Arial, Helvetica, sans-serif;
+        margin-left: 16px;
+  }
+  /* 2ndnav */
+              
+  .nav-item a{
+    /* padding-left: 60px; */
+    margin-left: 30px;
+    }
+  .menu{
+      background-color:  #f1c503;
+      /* padding-left: 130px; */
+  
+  }
+  .navbar{
+      margin-left: 190px;
+      border-bottom: 4px solid rgb(22, 103, 196);
+      border-top: 4px solid rgb(22, 103, 196) ;
+      font-weight: 600;
+      font-size: 20px;
+  }
+  .info  ul li{
+      list-style: none;
+  }
+  .menu li{
+      color: white;
+      /* padding-left: 30px; */
+      padding-left: 15px;
+  }
+  .dropdown-menu{
+      background-color: rgb(45, 119, 202);;
+  }
+  .menu ul li:hover{
+      background-color: rgb(45, 119, 202);
+  }
+  .dropdown > .dropdown-menu.show{
+    display: none !important;
+  }
+  .dropdown:hover > .dropdown-menu{
+    display: block !important;
+  }
+  .dropdown-menu a{
+      color: white;
+      text-decoration: none;
+  }
+  .dropdown-menu a:hover{
+      background-color: rgb(15, 119, 237);
+      color: white;
+  }
+  .dropdown:focus > .dropdown-menu{
+    display: block !important;
+  }
+  .dropend > .dropdown-menu.show{
+    display: none !important;
+  }
+  .dropdend:hover:hover > .dropdown-menu{
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 160px;
+  
+  }
+  .navbar-collapse{
+      margin-left: 120px;
+  }
+  .dropdend:focus > .dropdown-menu{
+    display: block !important;
+  }
+  /* <!-- carousel - */
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* iconcolor */
+  .fa-arrow-circle-right{
+      color: white;
+  
+  }
+  
+  .navbar-toggler{
+      background-color: white;
+      border: none;
+  
+  }
+  .card-footer{
+      font-size: 20px;
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+     
+  }
+  .card-footer a{
+      color: grey;
+      text-decoration: none;
+  }
+  .card-footer:hover {
+      background-color: #f1c503;
+      color: white;
+   
+  }
+  .card-footer:hover a{
+      color: #fff;
+  }
+  .card-footer a:hover{
+      color: white;
+     
+  
+  }
+  .space{
+    margin-top: 20px;
+}
+.copyright{
+    margin: 10px;
+    font-size: 14px;
+}
+.owner {
+   margin: 10px;
+    font-size: 14px;
+}
+.main3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("../imgs/logo.png");
+    color: white;
+font-size: 12px;
+text-align: center;
+
+}
