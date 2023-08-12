@@ -1,0 +1,144 @@
+.stack{
+    padding-top: 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+}
+.bgcolor{
+    background-color: #027ec4;
+    height: 13vh;
+
+}
+.img{
+    margin-top: 30px;
+    margin-right: 90px;
+}
+/* post */
+.icons{
+  position: relative;
+  left: 20px;
+}
+.form-control{
+    position: relative;
+    right: 15px;
+    margin-left: 25px;
+    width: 95%;
+}
+
+.pi{
+  background: #027ec4;
+  height: 8vh;
+  padding: 10px;
+  color: #dbd9d9;
+  /* width: 100%; */
+  /* margin-left: 10px; */
+}
+.pinqury h6{
+    font-size: 25px;
+    /* margin-right: 16px; */
+
+}
+.fa-user-alt{
+  position: absolute;
+  right:20px;
+top: 80px;
+color: #dbd9d9;
+}
+.envelope1{
+  position: absolute;
+  right:20px;
+top: 120px;
+color: #dbd9d9;
+
+}
+.phone1{
+  position: absolute;
+  right:20px;
+top: 180px;
+color: #dbd9d9;
+
+}
+.signicon4{
+  position: absolute;
+  right:20px;
+top: 280px;
+color: #dbd9d9;
+}
+
+.formcolor{
+  background-color: #f1f1f1;
+}
+.icons{
+/* margin-left: 10px; */
+background-color: #f1f1f1;
+width: 96%;
+}
+.btn{
+  margin-left: 13px;
+ 
+}
+.btn:hover{
+  background: #fbb52f;
+}
+/* .......... */
+.content1{
+  background-color:  #f1f1f1;
+  height: 40px;
+  width: 140px;
+  background-color: #027ec4;
+  padding-top: 8px;
+ padding-left: 10px;
+}
+.content1 a {
+  text-decoration: none;
+
+  font-family: sans-serif;
+  color: white;
+}
+
+.content2 {
+  background-color: #f1f1f1;
+  height: 40px;
+  width: 140px;
+  padding-top: 8px;
+  margin-left: 5px;
+}
+
+.content2 a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.content2 a i{
+  padding-left: 20px;
+}
+.aboutstack{
+  margin-top: 10px;
+}
+span{
+  color: #027ec4;
+}
+.stacklist{
+  border: 1px solid gainsboro;
+  padding-left: 10px;
+  padding: 8px;
+  font-size: 13px;
+}
+.training{
+  margin-top: 10px;
+}
+.Course {
+  margin-top: 10px;
+}
+.DurationFrequency{
+  margin-top: 10px;
+}
+.colorbtn{
+    background-color: #027ec4;
+    color: white;
+  margin-bottom: 20px;
+}
+.colorbtn:hover{
+    background-color: #027ec4;
+    color: white;
+}

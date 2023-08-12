@@ -16,6 +16,7 @@ height: 55px;
 width: 50px;
 /* margin-bottom: 90px; */
   font-size: 13px; /* Increase font size */
+  background-color:rgb(61, 130, 209) ;
 
 
 }
@@ -23,6 +24,7 @@ width: 50px;
 #myBtn:hover {
 color:#f1c503;
 border: 2px solid #f1c503 ;
+
 }
 .coverbtn{
     text-align: end;
@@ -80,26 +82,21 @@ padding-top: 14px;
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(63, 136, 220) ;
-    margin-left: 8px;
+    margin-left: 5px;
   
 }
-.ahreftex span{
-    margin-left: 10px;
-}
+
 .ahreftex1{
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
-      margin-left: 16px;
+      margin-left: 5px;
 }
 /* 2ndnav */
             
-.nav-item a{
-/* padding-left: 60px; */
-margin-left: 30px;
-}
+
 .menu{
     background-color:  #f1c503;
-    /* padding-left: 130px; */
+    padding-left: 130px;
     /* margin-left: 120px; */
 
 }
@@ -115,14 +112,25 @@ margin-left: 30px;
 }
 .menu li{
     color: white;
-    /* padding-left: 30px; */
-    /* margin-left: 18px; */
+    padding-left: 15px;
+}
+
+.menu li a{
+    color: white;
+      margin-left: 18px;
 }
 .dropdown-menu{
-    background-color: rgb(45, 119, 202);;
-}
-.menu ul li:hover{
     background-color: rgb(45, 119, 202);
+    margin-left: 20px;
+}
+.menu ul li :hover {
+    background-color: rgb(45, 119, 202);
+  /* background-color: blue; */
+
+}
+.menu li span a:hover{
+    border: 1px solid black;
+    border-radius: 3px;
 }
 .dropdown > .dropdown-menu.show{
   display: none !important;
@@ -135,8 +143,9 @@ margin-left: 30px;
     text-decoration: none;
 }
 .dropdown-menu a:hover{
-    background-color: rgb(15, 119, 237);
+    background-color: blue;
     color: white;
+    /* margin-right: 20px; */
 }
 .dropdown:focus > .dropdown-menu{
   display: block !important;
@@ -148,11 +157,8 @@ margin-left: 30px;
   display: block !important;
   position: absolute;
   top: 0;
-  left: 160px;
-
-}
-.navbar-collapse{
-    margin-left: 120px;
+  left: 140px;
+  /* right: 0px; */
 }
 .dropdend:focus > .dropdown-menu{
   display: block !important;
