@@ -7,6 +7,7 @@
 .bgcolor{
     background-color: #027ec4;
     height: 13vh;
+    
 
 }
 .img{
@@ -75,6 +76,7 @@ width: 96%;
 }
 .btn{
   margin-left: 13px;
+  
  
 }
 .btn:hover{
@@ -116,7 +118,7 @@ width: 96%;
   margin-top: 10px;
 }
 span{
-  color: #027ec4;
+  /* color: #027ec4; */
 }
 .stacklist{
   border: 1px solid gainsboro;
