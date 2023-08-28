@@ -34,6 +34,7 @@ body{
       text-align: end;
       margin-top: 30px;
   
+  
       #ourcustomer {
           height: 110px; /* Set a fixed height for the parent container */
         }
@@ -107,8 +108,10 @@ body{
   
   .menu{
 background:  linear-gradient(#D68A30,#FFF382,#D68A30);
-    padding-left: 130px;
+    /* padding-left: 130px; */
       /* margin-left: 120px; */
+  padding-left: 87px;
+
   
   }
   .navbar{
