@@ -160,3 +160,6 @@ border-bottom: 2px solid rgb(22, 103, 196) ;
    margin-left: 20px;
    font-size: 14px;
   }
+.contact-icon a{
+  text-decoration: none;
+}
