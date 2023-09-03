@@ -24,6 +24,7 @@ body{
   
   
   }
+ 
   
   #myBtn:hover {
   color:#f1c503;
@@ -107,7 +108,11 @@ body{
             margin-left: 5px;
       }
   /* 2ndnav */
-
+  .second-nav{
+    position: sticky;
+    top: 0px;
+    z-index : 1000;
+  }
               
   
   .menu{

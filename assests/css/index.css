@@ -103,7 +103,11 @@ padding-top: 14px;
     }
 /* 2ndnav */
 
-            
+.second-nav{
+    position: sticky;
+    top: 0px;
+    z-index : 1000;
+  }      
 
 .menu{
 background:  linear-gradient(#CB004B,#E20155,#AF003E);
