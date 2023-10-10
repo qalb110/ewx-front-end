@@ -19,6 +19,32 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
+    <style>
+      
+        .card-bg{
+            margin: auto;
+            background-color: white;
+            /* width: 80vh ; */
+            /* height: 50vh; */
+            
+           
+        }
+        input[type=text] {
+  /* width: 100%; */
+  /* padding: 12px 20px; */
+  margin: 8px ;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 3px solid #e76711;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #ed6612;
+}
+    </style>
     <script type="text/javascript">
       (function () {
         emailjs.init("AnmCVOTKWKVWp4Ps5");
@@ -160,9 +186,9 @@
                 </div>
                 <!-- ahrftext -->
                 <div class="col-sm-10  col-md-10  col-xs-12  col-lg-8 col-xl-8">
-                  <a href="certified students .html" class="ahreftex">Verify Certificate</a>
-                  <a href="certified students .html" style="text-decoration: none;color: black;"> <p class="ahreftex1" >Click Here</p></a>
-                </div>
+                    <a href="certified students .html" class="ahreftex">Verify Certificate</a>
+                    <a href="certified students .html" style="text-decoration: none;color: black;"> <p class="ahreftex1" >Click Here</p></a>
+                  </div>
   
               </div>
             </div>
@@ -316,6 +342,34 @@
       </div>
     </nav>
     <!-- nav-end  -->
+
+
+    <div class="container-fluid p-4" style="background-color:lightgrey;">
+        <div class="row p-5">
+            <div class="col-md-3 col-xs-12">
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="card-bg mt-3">
+<div class="h2 p-3 ms-3 ">Verify a certificate</div>
+<!-- <div class="p p-5" style="color: orangered;"></div> -->
+<div class="row">
+    <div class="col-md-1 col-sm-10 col-xs-12"></div>
+    <div class="col-md-8 col-sm-10 col-xs-12 p-3">
+        <input type="text" name="" id="" placeholder="Enter a CERTIFIED ID*"   style="border-bottom: 2px solid orangered; border-top: none;border-left: none; border-right: none; background-color: lightgrey;width: 50vh">
+        <div class="p" style="font-size: 10px;">The Certificate ID can be found at the bottom of each certificate.
+        </div>
+
+    </div>
+    <div class="col-md-3 col-sm-10 col-xs-12  p-5 mt-5">
+        <button style="border: none;background-color: #0d6efd;color: white; padding: 20px;" id="ValidateBtn">Validate</button>
+    </div>
+</div>
+
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
     <div class="coverbtn">
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span style='font-size:30px;'>&#8593;</span></button>
    <!-- ..footer.. -->
